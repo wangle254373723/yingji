@@ -1,0 +1,1649 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LitJson.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:LitJson.Fakes.ShimJsonData">
+            <summary>LitJson.JsonData 的填充码类型</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonData.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonData.#ctor(LitJson.JsonData)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AddObject">
+            <summary>设置 JsonData.Add(Object value) 的 填充码</summary>
+        </member>
+        <member name="T:LitJson.Fakes.ShimJsonData.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.AddObject">
+            <summary>设置 JsonData.Add(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.Clear">
+            <summary>设置 JsonData.Clear() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.CountGet">
+            <summary>设置 JsonData.get_Count() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.CountSystemCollectionsICollectionget">
+            <summary>设置 JsonData.System.Collections.ICollection.get_Count() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.EnsureCollection">
+            <summary>设置 JsonData.EnsureCollection() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.EnsureDictionary">
+            <summary>设置 JsonData.EnsureDictionary() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.EnsureList">
+            <summary>设置 JsonData.EnsureList() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.EqualsJsonData">
+            <summary>设置 JsonData.Equals(JsonData x) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.GetJsonType">
+            <summary>设置 JsonData.GetJsonType() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsArrayGet">
+            <summary>设置 JsonData.get_IsArray() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsArrayLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsArray() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsBooleanGet">
+            <summary>设置 JsonData.get_IsBoolean() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsBooleanLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsBoolean() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsDoubleGet">
+            <summary>设置 JsonData.get_IsDouble() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsDoubleLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsDouble() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsFixedSizeSystemCollectionsIDictionaryget">
+            <summary>设置 JsonData.System.Collections.IDictionary.get_IsFixedSize() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsFixedSizeSystemCollectionsIListget">
+            <summary>设置 JsonData.System.Collections.IList.get_IsFixedSize() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsIntGet">
+            <summary>设置 JsonData.get_IsInt() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsIntLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsInt() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsLongGet">
+            <summary>设置 JsonData.get_IsLong() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsLongLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsLong() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsObjectGet">
+            <summary>设置 JsonData.get_IsObject() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsObjectLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsObject() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsReadOnlySystemCollectionsIDictionaryget">
+            <summary>设置 JsonData.System.Collections.IDictionary.get_IsReadOnly() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsReadOnlySystemCollectionsIListget">
+            <summary>设置 JsonData.System.Collections.IList.get_IsReadOnly() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsStringGet">
+            <summary>设置 JsonData.get_IsString() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsStringLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsString() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.IsSynchronizedSystemCollectionsICollectionget">
+            <summary>设置 JsonData.System.Collections.ICollection.get_IsSynchronized() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ItemGetInt32">
+            <summary>设置 JsonData.get_Item(Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ItemGetString">
+            <summary>设置 JsonData.get_Item(String prop_name) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ItemSetInt32JsonData">
+            <summary>设置 JsonData.set_Item(Int32 index, JsonData value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ItemSetStringJsonData">
+            <summary>设置 JsonData.set_Item(String prop_name, JsonData value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ItemSystemCollectionsIDictionarygetObject">
+            <summary>设置 JsonData.System.Collections.IDictionary.get_Item(Object key) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ItemSystemCollectionsIDictionarysetObjectObject">
+            <summary>设置 JsonData.System.Collections.IDictionary.set_Item(Object key, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ItemSystemCollectionsIListgetInt32">
+            <summary>设置 JsonData.System.Collections.IList.get_Item(Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ItemSystemCollectionsIListsetInt32Object">
+            <summary>设置 JsonData.System.Collections.IList.set_Item(Int32 index, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ItemSystemCollectionsSpecializedIOrderedDictionarygetInt32">
+            <summary>设置 JsonData.System.Collections.Specialized.IOrderedDictionary.get_Item(Int32 idx) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ItemSystemCollectionsSpecializedIOrderedDictionarysetInt32Object">
+            <summary>设置 JsonData.System.Collections.Specialized.IOrderedDictionary.set_Item(Int32 idx, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.KeysSystemCollectionsIDictionaryget">
+            <summary>设置 JsonData.System.Collections.IDictionary.get_Keys() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.LitJsonIJsonWrapperGetBoolean">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.GetBoolean() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.LitJsonIJsonWrapperGetDouble">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.GetDouble() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.LitJsonIJsonWrapperGetInt">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.GetInt() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.LitJsonIJsonWrapperGetLong">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.GetLong() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.LitJsonIJsonWrapperGetString">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.GetString() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.LitJsonIJsonWrapperSetBooleanBoolean">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.SetBoolean(Boolean val) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.LitJsonIJsonWrapperSetDoubleDouble">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.SetDouble(Double val) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.LitJsonIJsonWrapperSetIntInt32">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.SetInt(Int32 val) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.LitJsonIJsonWrapperSetLongInt64">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.SetLong(Int64 val) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.LitJsonIJsonWrapperSetStringString">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.SetString(String val) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.LitJsonIJsonWrapperToJson">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.ToJson() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.LitJsonIJsonWrapperToJsonJsonWriter">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.ToJson(JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SetJsonTypeJsonType">
+            <summary>设置 JsonData.SetJsonType(JsonType type) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SyncRootSystemCollectionsICollectionget">
+            <summary>设置 JsonData.System.Collections.ICollection.get_SyncRoot() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsICollectionCopyToArrayInt32">
+            <summary>设置 JsonData.System.Collections.ICollection.CopyTo(Array array, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIDictionaryAddObjectObject">
+            <summary>设置 JsonData.System.Collections.IDictionary.Add(Object key, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIDictionaryClear">
+            <summary>设置 JsonData.System.Collections.IDictionary.Clear() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIDictionaryContainsObject">
+            <summary>设置 JsonData.System.Collections.IDictionary.Contains(Object key) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIDictionaryGetEnumerator">
+            <summary>设置 JsonData.System.Collections.IDictionary.GetEnumerator() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIDictionaryRemoveObject">
+            <summary>设置 JsonData.System.Collections.IDictionary.Remove(Object key) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>设置 JsonData.System.Collections.IEnumerable.GetEnumerator() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIListAddObject">
+            <summary>设置 JsonData.System.Collections.IList.Add(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIListClear">
+            <summary>设置 JsonData.System.Collections.IList.Clear() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIListContainsObject">
+            <summary>设置 JsonData.System.Collections.IList.Contains(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIListIndexOfObject">
+            <summary>设置 JsonData.System.Collections.IList.IndexOf(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIListInsertInt32Object">
+            <summary>设置 JsonData.System.Collections.IList.Insert(Int32 index, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIListRemoveAtInt32">
+            <summary>设置 JsonData.System.Collections.IList.RemoveAt(Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsIListRemoveObject">
+            <summary>设置 JsonData.System.Collections.IList.Remove(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsSpecializedIOrderedDictionaryGetEnumerator">
+            <summary>设置 JsonData.System.Collections.Specialized.IOrderedDictionary.GetEnumerator() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsSpecializedIOrderedDictionaryInsertInt32ObjectObject">
+            <summary>设置 JsonData.System.Collections.Specialized.IOrderedDictionary.Insert(Int32 idx, Object key, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.SystemCollectionsSpecializedIOrderedDictionaryRemoveAtInt32">
+            <summary>设置 JsonData.System.Collections.Specialized.IOrderedDictionary.RemoveAt(Int32 idx) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ToJson">
+            <summary>设置 JsonData.ToJson() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ToJsonDataObject">
+            <summary>设置 JsonData.ToJsonData(Object obj) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ToJsonJsonWriter">
+            <summary>设置 JsonData.ToJson(JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ToString01">
+            <summary>设置 JsonData.ToString() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ValueAsArray">
+            <summary>设置 JsonData.ValueAsArray() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ValueAsBoolean">
+            <summary>设置 JsonData.ValueAsBoolean() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ValueAsDouble">
+            <summary>设置 JsonData.ValueAsDouble() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ValueAsInt">
+            <summary>设置 JsonData.ValueAsInt() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ValueAsLong">
+            <summary>设置 JsonData.ValueAsLong() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ValueAsObject">
+            <summary>设置 JsonData.ValueAsObject() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ValueAsString">
+            <summary>设置 JsonData.ValueAsString() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.AllInstances.ValuesSystemCollectionsIDictionaryget">
+            <summary>设置 JsonData.System.Collections.IDictionary.get_Values() 的 填充码</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonData.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonData.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonData.Bind(LitJson.IJsonWrapper)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonData.Bind(System.Collections.Specialized.IOrderedDictionary)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonData.Bind(System.IEquatable{LitJson.JsonData})">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonData.Bind(System.Collections.ICollection)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonData.Bind(System.Collections.IDictionary)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonData.Bind(System.Collections.IEnumerable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonData.Bind(System.Collections.IList)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.Clear">
+            <summary>设置 JsonData.Clear() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.Constructor">
+            <summary>设置 JsonData.JsonData() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ConstructorBoolean">
+            <summary>设置 JsonData.JsonData(Boolean boolean) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ConstructorDouble">
+            <summary>设置 JsonData.JsonData(Double number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ConstructorInt32">
+            <summary>设置 JsonData.JsonData(Int32 number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ConstructorInt64">
+            <summary>设置 JsonData.JsonData(Int64 number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ConstructorObject">
+            <summary>设置 JsonData.JsonData(Object obj) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ConstructorString">
+            <summary>设置 JsonData.JsonData(String str) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.CountGet">
+            <summary>设置 JsonData.get_Count() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.CountSystemCollectionsICollectionget">
+            <summary>设置 JsonData.System.Collections.ICollection.get_Count() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.DLOGString">
+            <summary>设置 JsonData.DLOG(String str) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.EnsureCollection">
+            <summary>设置 JsonData.EnsureCollection() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.EnsureDictionary">
+            <summary>设置 JsonData.EnsureDictionary() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.EnsureList">
+            <summary>设置 JsonData.EnsureList() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.EqualsJsonData">
+            <summary>设置 JsonData.Equals(JsonData x) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ExplicitOpJsonDataBoolean">
+            <summary>设置 JsonData.op_Explicit(JsonData data) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ExplicitOpJsonDataDouble">
+            <summary>设置 JsonData.op_Explicit(JsonData data) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ExplicitOpJsonDataInt32">
+            <summary>设置 JsonData.op_Explicit(JsonData data) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ExplicitOpJsonDataInt64">
+            <summary>设置 JsonData.op_Explicit(JsonData data) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ExplicitOpJsonDataString">
+            <summary>设置 JsonData.op_Explicit(JsonData data) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.GetJsonType">
+            <summary>设置 JsonData.GetJsonType() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ImplicitOpBooleanJsonData">
+            <summary>设置 JsonData.op_Implicit(Boolean data) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ImplicitOpDoubleJsonData">
+            <summary>设置 JsonData.op_Implicit(Double data) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ImplicitOpInt32JsonData">
+            <summary>设置 JsonData.op_Implicit(Int32 data) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ImplicitOpInt64JsonData">
+            <summary>设置 JsonData.op_Implicit(Int64 data) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ImplicitOpStringJsonData">
+            <summary>设置 JsonData.op_Implicit(String data) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsArrayGet">
+            <summary>设置 JsonData.get_IsArray() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsArrayLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsArray() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsBooleanGet">
+            <summary>设置 JsonData.get_IsBoolean() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsBooleanLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsBoolean() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsDoubleGet">
+            <summary>设置 JsonData.get_IsDouble() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsDoubleLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsDouble() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsFixedSizeSystemCollectionsIDictionaryget">
+            <summary>设置 JsonData.System.Collections.IDictionary.get_IsFixedSize() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsFixedSizeSystemCollectionsIListget">
+            <summary>设置 JsonData.System.Collections.IList.get_IsFixedSize() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsIntGet">
+            <summary>设置 JsonData.get_IsInt() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsIntLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsInt() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsLongGet">
+            <summary>设置 JsonData.get_IsLong() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsLongLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsLong() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsObjectGet">
+            <summary>设置 JsonData.get_IsObject() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsObjectLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsObject() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsReadOnlySystemCollectionsIDictionaryget">
+            <summary>设置 JsonData.System.Collections.IDictionary.get_IsReadOnly() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsReadOnlySystemCollectionsIListget">
+            <summary>设置 JsonData.System.Collections.IList.get_IsReadOnly() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsStringGet">
+            <summary>设置 JsonData.get_IsString() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsStringLitJsonIJsonWrapperget">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.get_IsString() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.IsSynchronizedSystemCollectionsICollectionget">
+            <summary>设置 JsonData.System.Collections.ICollection.get_IsSynchronized() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ItemGetInt32">
+            <summary>设置 JsonData.get_Item(Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ItemGetString">
+            <summary>设置 JsonData.get_Item(String prop_name) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ItemSetInt32JsonData">
+            <summary>设置 JsonData.set_Item(Int32 index, JsonData value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ItemSetStringJsonData">
+            <summary>设置 JsonData.set_Item(String prop_name, JsonData value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ItemSystemCollectionsIDictionarygetObject">
+            <summary>设置 JsonData.System.Collections.IDictionary.get_Item(Object key) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ItemSystemCollectionsIDictionarysetObjectObject">
+            <summary>设置 JsonData.System.Collections.IDictionary.set_Item(Object key, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ItemSystemCollectionsIListgetInt32">
+            <summary>设置 JsonData.System.Collections.IList.get_Item(Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ItemSystemCollectionsIListsetInt32Object">
+            <summary>设置 JsonData.System.Collections.IList.set_Item(Int32 index, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ItemSystemCollectionsSpecializedIOrderedDictionarygetInt32">
+            <summary>设置 JsonData.System.Collections.Specialized.IOrderedDictionary.get_Item(Int32 idx) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ItemSystemCollectionsSpecializedIOrderedDictionarysetInt32Object">
+            <summary>设置 JsonData.System.Collections.Specialized.IOrderedDictionary.set_Item(Int32 idx, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.KeysSystemCollectionsIDictionaryget">
+            <summary>设置 JsonData.System.Collections.IDictionary.get_Keys() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.LitJsonIJsonWrapperGetBoolean">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.GetBoolean() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.LitJsonIJsonWrapperGetDouble">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.GetDouble() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.LitJsonIJsonWrapperGetInt">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.GetInt() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.LitJsonIJsonWrapperGetLong">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.GetLong() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.LitJsonIJsonWrapperGetString">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.GetString() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.LitJsonIJsonWrapperSetBooleanBoolean">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.SetBoolean(Boolean val) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.LitJsonIJsonWrapperSetDoubleDouble">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.SetDouble(Double val) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.LitJsonIJsonWrapperSetIntInt32">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.SetInt(Int32 val) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.LitJsonIJsonWrapperSetLongInt64">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.SetLong(Int64 val) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.LitJsonIJsonWrapperSetStringString">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.SetString(String val) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.LitJsonIJsonWrapperToJson">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.ToJson() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.LitJsonIJsonWrapperToJsonJsonWriter">
+            <summary>设置 JsonData.LitJson.IJsonWrapper.ToJson(JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.PrintJsonTypeMemoryJsonType">
+            <summary>设置 JsonData.PrintJsonTypeMemory(JsonType t) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SetJsonTypeJsonType">
+            <summary>设置 JsonData.SetJsonType(JsonType type) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SyncRootSystemCollectionsICollectionget">
+            <summary>设置 JsonData.System.Collections.ICollection.get_SyncRoot() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsICollectionCopyToArrayInt32">
+            <summary>设置 JsonData.System.Collections.ICollection.CopyTo(Array array, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIDictionaryAddObjectObject">
+            <summary>设置 JsonData.System.Collections.IDictionary.Add(Object key, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIDictionaryClear">
+            <summary>设置 JsonData.System.Collections.IDictionary.Clear() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIDictionaryContainsObject">
+            <summary>设置 JsonData.System.Collections.IDictionary.Contains(Object key) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIDictionaryGetEnumerator">
+            <summary>设置 JsonData.System.Collections.IDictionary.GetEnumerator() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIDictionaryRemoveObject">
+            <summary>设置 JsonData.System.Collections.IDictionary.Remove(Object key) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>设置 JsonData.System.Collections.IEnumerable.GetEnumerator() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIListAddObject">
+            <summary>设置 JsonData.System.Collections.IList.Add(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIListClear">
+            <summary>设置 JsonData.System.Collections.IList.Clear() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIListContainsObject">
+            <summary>设置 JsonData.System.Collections.IList.Contains(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIListIndexOfObject">
+            <summary>设置 JsonData.System.Collections.IList.IndexOf(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIListInsertInt32Object">
+            <summary>设置 JsonData.System.Collections.IList.Insert(Int32 index, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIListRemoveAtInt32">
+            <summary>设置 JsonData.System.Collections.IList.RemoveAt(Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsIListRemoveObject">
+            <summary>设置 JsonData.System.Collections.IList.Remove(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsSpecializedIOrderedDictionaryGetEnumerator">
+            <summary>设置 JsonData.System.Collections.Specialized.IOrderedDictionary.GetEnumerator() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsSpecializedIOrderedDictionaryInsertInt32ObjectObject">
+            <summary>设置 JsonData.System.Collections.Specialized.IOrderedDictionary.Insert(Int32 idx, Object key, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.SystemCollectionsSpecializedIOrderedDictionaryRemoveAtInt32">
+            <summary>设置 JsonData.System.Collections.Specialized.IOrderedDictionary.RemoveAt(Int32 idx) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ToJson">
+            <summary>设置 JsonData.ToJson() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ToJsonDataObject">
+            <summary>设置 JsonData.ToJsonData(Object obj) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ToJsonJsonWriter">
+            <summary>设置 JsonData.ToJson(JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ToString">
+            <summary>设置 JsonData.ToString() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ValueAsArray">
+            <summary>设置 JsonData.ValueAsArray() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ValueAsBoolean">
+            <summary>设置 JsonData.ValueAsBoolean() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ValueAsDouble">
+            <summary>设置 JsonData.ValueAsDouble() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ValueAsInt">
+            <summary>设置 JsonData.ValueAsInt() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ValueAsLong">
+            <summary>设置 JsonData.ValueAsLong() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ValueAsObject">
+            <summary>设置 JsonData.ValueAsObject() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ValueAsString">
+            <summary>设置 JsonData.ValueAsString() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.ValuesSystemCollectionsIDictionaryget">
+            <summary>设置 JsonData.System.Collections.IDictionary.get_Values() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.WriteJson2JsonTypeJsonDataJsonWriter">
+            <summary>设置 JsonData.WriteJson2(JsonType t, JsonData obj, JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonData.WriteJsonIJsonWrapperJsonWriter">
+            <summary>设置 JsonData.WriteJson(IJsonWrapper obj, JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="T:LitJson.Fakes.ShimJsonException">
+            <summary>LitJson.JsonException 的填充码类型</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonException.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonException.#ctor(LitJson.JsonException)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:LitJson.Fakes.ShimJsonException.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonException.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonException.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonException.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonException.Constructor">
+            <summary>设置 JsonException.JsonException() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonException.ConstructorInt32">
+            <summary>设置 JsonException.JsonException(Int32 c) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonException.ConstructorInt32Exception">
+            <summary>设置 JsonException.JsonException(Int32 c, Exception inner_exception) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonException.ConstructorString">
+            <summary>设置 JsonException.JsonException(String message) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonException.ConstructorStringException">
+            <summary>设置 JsonException.JsonException(String message, Exception inner_exception) 的 填充码</summary>
+        </member>
+        <member name="T:LitJson.Fakes.ShimJsonMapper">
+            <summary>LitJson.JsonMapper 的填充码类型</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonMapper.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonMapper.#ctor(LitJson.JsonMapper)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.AddArrayMetadataType">
+            <summary>设置 JsonMapper.AddArrayMetadata(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.AddObjectMetadataType">
+            <summary>设置 JsonMapper.AddObjectMetadata(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.AddTypePropertiesType">
+            <summary>设置 JsonMapper.AddTypeProperties(Type type) 的 填充码</summary>
+        </member>
+        <member name="T:LitJson.Fakes.ShimJsonMapper.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonMapper.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonMapper.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.ClearErrorStack">
+            <summary>设置 JsonMapper.ClearErrorStack() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.Constructor">
+            <summary>设置 JsonMapper.JsonMapper() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.GetConvOpTypeType">
+            <summary>设置 JsonMapper.GetConvOp(Type t1, Type t2) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.GetInterpretError">
+            <summary>设置 JsonMapper.GetInterpretError() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.HasInterpretError">
+            <summary>设置 JsonMapper.HasInterpretError() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.ReadValueTypeJsonReader">
+            <summary>设置 JsonMapper.ReadValue(Type inst_type, JsonReader reader) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.ReadValueWrapperFactoryJsonReader">
+            <summary>设置 JsonMapper.ReadValue(WrapperFactory factory, JsonReader reader) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.RegisterBaseExporters">
+            <summary>设置 JsonMapper.RegisterBaseExporters() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.RegisterBaseImporters">
+            <summary>设置 JsonMapper.RegisterBaseImporters() 的 填充码</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonMapper.RegisterExporterOf1ExporterFuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{LitJson.ExporterFunc{``0}})">
+            <summary>设置 JsonMapper.RegisterExporter(ExporterFunc`1&lt;!!0&gt; exporter) 的 填充码</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonMapper.RegisterImporterOf2ImporterFuncOfM0M1``2(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{LitJson.ImporterFunc{``0,``1}})">
+            <summary>设置 JsonMapper.RegisterImporter(ImporterFunc`2&lt;!!0,!!1&gt; importer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.StaticConstructor">
+            <summary>设置 JsonMapper.JsonMapper() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.ToJsonObject">
+            <summary>设置 JsonMapper.ToJson(Object obj) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.ToJsonObjectJsonWriter">
+            <summary>设置 JsonMapper.ToJson(Object obj, JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.ToObjectJsonReader">
+            <summary>设置 JsonMapper.ToObject(JsonReader reader) 的 填充码</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonMapper.ToObjectOf1JsonReader``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{LitJson.JsonReader,``0})">
+            <summary>设置 JsonMapper.ToObject(JsonReader reader) 的 填充码</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonMapper.ToObjectOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,``0})">
+            <summary>设置 JsonMapper.ToObject(String json) 的 填充码</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonMapper.ToObjectOf1TextReader``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.IO.TextReader,``0})">
+            <summary>设置 JsonMapper.ToObject(TextReader reader) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.ToObjectString">
+            <summary>设置 JsonMapper.ToObject(String json) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.ToObjectTextReader">
+            <summary>设置 JsonMapper.ToObject(TextReader reader) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.ToWrapperWrapperFactoryJsonReader">
+            <summary>设置 JsonMapper.ToWrapper(WrapperFactory factory, JsonReader reader) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.ToWrapperWrapperFactoryString">
+            <summary>设置 JsonMapper.ToWrapper(WrapperFactory factory, String json) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.UnregisterExporters">
+            <summary>设置 JsonMapper.UnregisterExporters() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.UnregisterImporters">
+            <summary>设置 JsonMapper.UnregisterImporters() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper.WriteValueObjectJsonWriterBooleanInt32">
+            <summary>设置 JsonMapper.WriteValue(Object obj, JsonWriter writer, Boolean writer_is_private, Int32 depth) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseExportersm__0ObjectJsonWriter">
+            <summary>设置 JsonMapper.&lt;RegisterBaseExporters&gt;m__0(Object obj, JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseExportersm__1ObjectJsonWriter">
+            <summary>设置 JsonMapper.&lt;RegisterBaseExporters&gt;m__1(Object obj, JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseExportersm__2ObjectJsonWriter">
+            <summary>设置 JsonMapper.&lt;RegisterBaseExporters&gt;m__2(Object obj, JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseExportersm__3ObjectJsonWriter">
+            <summary>设置 JsonMapper.&lt;RegisterBaseExporters&gt;m__3(Object obj, JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseExportersm__4ObjectJsonWriter">
+            <summary>设置 JsonMapper.&lt;RegisterBaseExporters&gt;m__4(Object obj, JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseExportersm__5ObjectJsonWriter">
+            <summary>设置 JsonMapper.&lt;RegisterBaseExporters&gt;m__5(Object obj, JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseExportersm__6ObjectJsonWriter">
+            <summary>设置 JsonMapper.&lt;RegisterBaseExporters&gt;m__6(Object obj, JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseExportersm__7ObjectJsonWriter">
+            <summary>设置 JsonMapper.&lt;RegisterBaseExporters&gt;m__7(Object obj, JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseExportersm__8ObjectJsonWriter">
+            <summary>设置 JsonMapper.&lt;RegisterBaseExporters&gt;m__8(Object obj, JsonWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseImportersm__10Object">
+            <summary>设置 JsonMapper.&lt;RegisterBaseImporters&gt;m__10(Object input) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseImportersm__11Object">
+            <summary>设置 JsonMapper.&lt;RegisterBaseImporters&gt;m__11(Object input) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseImportersm__12Object">
+            <summary>设置 JsonMapper.&lt;RegisterBaseImporters&gt;m__12(Object input) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseImportersm__13Object">
+            <summary>设置 JsonMapper.&lt;RegisterBaseImporters&gt;m__13(Object input) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseImportersm__14Object">
+            <summary>设置 JsonMapper.&lt;RegisterBaseImporters&gt;m__14(Object input) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseImportersm__9Object">
+            <summary>设置 JsonMapper.&lt;RegisterBaseImporters&gt;m__9(Object input) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseImportersm__AObject">
+            <summary>设置 JsonMapper.&lt;RegisterBaseImporters&gt;m__A(Object input) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseImportersm__BObject">
+            <summary>设置 JsonMapper.&lt;RegisterBaseImporters&gt;m__B(Object input) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseImportersm__CObject">
+            <summary>设置 JsonMapper.&lt;RegisterBaseImporters&gt;m__C(Object input) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseImportersm__DObject">
+            <summary>设置 JsonMapper.&lt;RegisterBaseImporters&gt;m__D(Object input) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseImportersm__EObject">
+            <summary>设置 JsonMapper.&lt;RegisterBaseImporters&gt;m__E(Object input) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._RegisterBaseImportersm__FObject">
+            <summary>设置 JsonMapper.&lt;RegisterBaseImporters&gt;m__F(Object input) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._ToObjectm__15">
+            <summary>设置 JsonMapper.&lt;ToObject&gt;m__15() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._ToObjectm__16">
+            <summary>设置 JsonMapper.&lt;ToObject&gt;m__16() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonMapper._ToObjectm__17">
+            <summary>设置 JsonMapper.&lt;ToObject&gt;m__17() 的 填充码</summary>
+        </member>
+        <member name="T:LitJson.Fakes.ShimJsonReader">
+            <summary>LitJson.JsonReader 的填充码类型</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonReader.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonReader.#ctor(LitJson.JsonReader)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:LitJson.Fakes.ShimJsonReader.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.AllowCommentsGet">
+            <summary>设置 JsonReader.get_AllowComments() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.AllowCommentsSetBoolean">
+            <summary>设置 JsonReader.set_AllowComments(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.AllowSingleQuotedStringsGet">
+            <summary>设置 JsonReader.get_AllowSingleQuotedStrings() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.AllowSingleQuotedStringsSetBoolean">
+            <summary>设置 JsonReader.set_AllowSingleQuotedStrings(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.Close">
+            <summary>设置 JsonReader.Close() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.EndOfInputGet">
+            <summary>设置 JsonReader.get_EndOfInput() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.EndOfJsonGet">
+            <summary>设置 JsonReader.get_EndOfJson() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.ProcessNumberString">
+            <summary>设置 JsonReader.ProcessNumber(String number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.ProcessSymbol">
+            <summary>设置 JsonReader.ProcessSymbol() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.Read">
+            <summary>设置 JsonReader.Read() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.ReadToken">
+            <summary>设置 JsonReader.ReadToken() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.TokenGet">
+            <summary>设置 JsonReader.get_Token() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllInstances.ValueGet">
+            <summary>设置 JsonReader.get_Value() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllowCommentsGet">
+            <summary>设置 JsonReader.get_AllowComments() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllowCommentsSetBoolean">
+            <summary>设置 JsonReader.set_AllowComments(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllowSingleQuotedStringsGet">
+            <summary>设置 JsonReader.get_AllowSingleQuotedStrings() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.AllowSingleQuotedStringsSetBoolean">
+            <summary>设置 JsonReader.set_AllowSingleQuotedStrings(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonReader.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonReader.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.Close">
+            <summary>设置 JsonReader.Close() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.ConstructorString">
+            <summary>设置 JsonReader.JsonReader(String json_text) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.ConstructorTextReader">
+            <summary>设置 JsonReader.JsonReader(TextReader reader) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.ConstructorTextReaderBoolean">
+            <summary>设置 JsonReader.JsonReader(TextReader reader, Boolean owned) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.EndOfInputGet">
+            <summary>设置 JsonReader.get_EndOfInput() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.EndOfJsonGet">
+            <summary>设置 JsonReader.get_EndOfJson() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.PopulateParseTable">
+            <summary>设置 JsonReader.PopulateParseTable() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.ProcessNumberString">
+            <summary>设置 JsonReader.ProcessNumber(String number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.ProcessSymbol">
+            <summary>设置 JsonReader.ProcessSymbol() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.Read">
+            <summary>设置 JsonReader.Read() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.ReadToken">
+            <summary>设置 JsonReader.ReadToken() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.StaticConstructor">
+            <summary>设置 JsonReader.JsonReader() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.TokenGet">
+            <summary>设置 JsonReader.get_Token() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonReader.ValueGet">
+            <summary>设置 JsonReader.get_Value() 的 填充码</summary>
+        </member>
+        <member name="T:LitJson.Fakes.ShimJsonWriter">
+            <summary>LitJson.JsonWriter 的填充码类型</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonWriter.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonWriter.#ctor(LitJson.JsonWriter)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:LitJson.Fakes.ShimJsonWriter.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.Indent">
+            <summary>设置 JsonWriter.Indent() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.IndentValueGet">
+            <summary>设置 JsonWriter.get_IndentValue() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.IndentValueSetInt32">
+            <summary>设置 JsonWriter.set_IndentValue(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.Init">
+            <summary>设置 JsonWriter.Init() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.PrettyPrintGet">
+            <summary>设置 JsonWriter.get_PrettyPrint() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.PrettyPrintSetBoolean">
+            <summary>设置 JsonWriter.set_PrettyPrint(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.PutNewline">
+            <summary>设置 JsonWriter.PutNewline() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.PutNewlineBoolean">
+            <summary>设置 JsonWriter.PutNewline(Boolean add_comma) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.PutString">
+            <summary>设置 JsonWriter.Put(String str) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.PutStringString">
+            <summary>设置 JsonWriter.PutString(String str) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.Reset">
+            <summary>设置 JsonWriter.Reset() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.TextWriterGet">
+            <summary>设置 JsonWriter.get_TextWriter() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.ToString01">
+            <summary>设置 JsonWriter.ToString() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.Unindent">
+            <summary>设置 JsonWriter.Unindent() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.ValidateGet">
+            <summary>设置 JsonWriter.get_Validate() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.ValidateSetBoolean">
+            <summary>设置 JsonWriter.set_Validate(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.WriteArrayEnd">
+            <summary>设置 JsonWriter.WriteArrayEnd() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.WriteArrayStart">
+            <summary>设置 JsonWriter.WriteArrayStart() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.WriteBoolean">
+            <summary>设置 JsonWriter.Write(Boolean boolean) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.WriteDecimal">
+            <summary>设置 JsonWriter.Write(Decimal number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.WriteDouble">
+            <summary>设置 JsonWriter.Write(Double number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.WriteInt32">
+            <summary>设置 JsonWriter.Write(Int32 number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.WriteInt64">
+            <summary>设置 JsonWriter.Write(Int64 number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.WriteObjectEnd">
+            <summary>设置 JsonWriter.WriteObjectEnd() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.WriteObjectStart">
+            <summary>设置 JsonWriter.WriteObjectStart() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.WritePropertyNameString">
+            <summary>设置 JsonWriter.WritePropertyName(String property_name) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.WriteString">
+            <summary>设置 JsonWriter.Write(String str) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.AllInstances.WriteUInt64">
+            <summary>设置 JsonWriter.Write(UInt64 number) 的 填充码</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonWriter.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:LitJson.Fakes.ShimJsonWriter.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.Constructor">
+            <summary>设置 JsonWriter.JsonWriter() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.ConstructorStringBuilder">
+            <summary>设置 JsonWriter.JsonWriter(StringBuilder sb) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.ConstructorTextWriter">
+            <summary>设置 JsonWriter.JsonWriter(TextWriter writer) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.Indent">
+            <summary>设置 JsonWriter.Indent() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.IndentValueGet">
+            <summary>设置 JsonWriter.get_IndentValue() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.IndentValueSetInt32">
+            <summary>设置 JsonWriter.set_IndentValue(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.Init">
+            <summary>设置 JsonWriter.Init() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.IntToHexInt32CharArray">
+            <summary>设置 JsonWriter.IntToHex(Int32 n, Char[] hex) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.PrettyPrintGet">
+            <summary>设置 JsonWriter.get_PrettyPrint() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.PrettyPrintSetBoolean">
+            <summary>设置 JsonWriter.set_PrettyPrint(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.PutNewline">
+            <summary>设置 JsonWriter.PutNewline() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.PutNewlineBoolean">
+            <summary>设置 JsonWriter.PutNewline(Boolean add_comma) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.PutString">
+            <summary>设置 JsonWriter.Put(String str) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.PutStringString">
+            <summary>设置 JsonWriter.PutString(String str) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.Reset">
+            <summary>设置 JsonWriter.Reset() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.StaticConstructor">
+            <summary>设置 JsonWriter.JsonWriter() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.TextWriterGet">
+            <summary>设置 JsonWriter.get_TextWriter() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.ToString">
+            <summary>设置 JsonWriter.ToString() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.Unindent">
+            <summary>设置 JsonWriter.Unindent() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.ValidateGet">
+            <summary>设置 JsonWriter.get_Validate() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.ValidateSetBoolean">
+            <summary>设置 JsonWriter.set_Validate(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.WriteArrayEnd">
+            <summary>设置 JsonWriter.WriteArrayEnd() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.WriteArrayStart">
+            <summary>设置 JsonWriter.WriteArrayStart() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.WriteBoolean">
+            <summary>设置 JsonWriter.Write(Boolean boolean) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.WriteDecimal">
+            <summary>设置 JsonWriter.Write(Decimal number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.WriteDouble">
+            <summary>设置 JsonWriter.Write(Double number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.WriteInt32">
+            <summary>设置 JsonWriter.Write(Int32 number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.WriteInt64">
+            <summary>设置 JsonWriter.Write(Int64 number) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.WriteObjectEnd">
+            <summary>设置 JsonWriter.WriteObjectEnd() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.WriteObjectStart">
+            <summary>设置 JsonWriter.WriteObjectStart() 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.WritePropertyNameString">
+            <summary>设置 JsonWriter.WritePropertyName(String property_name) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.WriteString">
+            <summary>设置 JsonWriter.Write(String str) 的 填充码</summary>
+        </member>
+        <member name="P:LitJson.Fakes.ShimJsonWriter.WriteUInt64">
+            <summary>设置 JsonWriter.Write(UInt64 number) 的 填充码</summary>
+        </member>
+        <member name="T:LitJson.Fakes.StubIJsonWrapper">
+            <summary>LitJson.IJsonWrapper 的存根类型</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.#ctor">
+            <summary>初始化 type StubIJsonWrapper 的新实例</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.AddObject">
+            <summary>设置 IList.Add(Object value) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.AddObjectObject">
+            <summary>设置 IDictionary.Add(Object key, Object value) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.Clear">
+            <summary>设置 IList.Clear() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.Clear01">
+            <summary>设置 IDictionary.Clear() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.ContainsObject">
+            <summary>设置 IList.Contains(Object value) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.ContainsObject01">
+            <summary>设置 IDictionary.Contains(Object key) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.CopyToArrayInt32">
+            <summary>设置 ICollection.CopyTo(Array array, Int32 index) 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.System#Collections#ICollection#Count">
+            <summary>设置 ICollection.get_Count() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.CountGet">
+            <summary>设置 ICollection.get_Count() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.GetBoolean">
+            <summary>设置 IJsonWrapper.GetBoolean() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.GetDouble">
+            <summary>设置 IJsonWrapper.GetDouble() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.GetEnumerator">
+            <summary>设置 IEnumerable.GetEnumerator() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.GetEnumerator01">
+            <summary>设置 IDictionary.GetEnumerator() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.GetEnumerator02">
+            <summary>设置 IOrderedDictionary.GetEnumerator() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.GetInt">
+            <summary>设置 IJsonWrapper.GetInt() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.GetJsonType">
+            <summary>设置 IJsonWrapper.GetJsonType() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.GetLong">
+            <summary>设置 IJsonWrapper.GetLong() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.GetString">
+            <summary>设置 IJsonWrapper.GetString() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IndexOfObject">
+            <summary>设置 IList.IndexOf(Object value) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.InsertInt32Object">
+            <summary>设置 IList.Insert(Int32 index, Object value) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.InsertInt32ObjectObject">
+            <summary>设置 IOrderedDictionary.Insert(Int32 index, Object key, Object value) 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#IsArray">
+            <summary>设置 IJsonWrapper.get_IsArray() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IsArrayGet">
+            <summary>设置 IJsonWrapper.get_IsArray() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#IsBoolean">
+            <summary>设置 IJsonWrapper.get_IsBoolean() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IsBooleanGet">
+            <summary>设置 IJsonWrapper.get_IsBoolean() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#IsDouble">
+            <summary>设置 IJsonWrapper.get_IsDouble() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IsDoubleGet">
+            <summary>设置 IJsonWrapper.get_IsDouble() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.System#Collections#IList#IsFixedSize">
+            <summary>设置 IList.get_IsFixedSize() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.System#Collections#IDictionary#IsFixedSize">
+            <summary>设置 IDictionary.get_IsFixedSize() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IsFixedSizeGet">
+            <summary>设置 IList.get_IsFixedSize() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IsFixedSizeGet01">
+            <summary>设置 IDictionary.get_IsFixedSize() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#IsInt">
+            <summary>设置 IJsonWrapper.get_IsInt() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IsIntGet">
+            <summary>设置 IJsonWrapper.get_IsInt() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#IsLong">
+            <summary>设置 IJsonWrapper.get_IsLong() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IsLongGet">
+            <summary>设置 IJsonWrapper.get_IsLong() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#IsObject">
+            <summary>设置 IJsonWrapper.get_IsObject() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IsObjectGet">
+            <summary>设置 IJsonWrapper.get_IsObject() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.System#Collections#IDictionary#IsReadOnly">
+            <summary>设置 IDictionary.get_IsReadOnly() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.System#Collections#IList#IsReadOnly">
+            <summary>设置 IList.get_IsReadOnly() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IsReadOnlyGet">
+            <summary>设置 IList.get_IsReadOnly() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IsReadOnlyGet01">
+            <summary>设置 IDictionary.get_IsReadOnly() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#IsString">
+            <summary>设置 IJsonWrapper.get_IsString() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IsStringGet">
+            <summary>设置 IJsonWrapper.get_IsString() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.System#Collections#ICollection#IsSynchronized">
+            <summary>设置 ICollection.get_IsSynchronized() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.IsSynchronizedGet">
+            <summary>设置 ICollection.get_IsSynchronized() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.System#Collections#IList#Item(System.Int32)">
+            <summary>设置 IList.get_Item(Int32 index) 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.System#Collections#Specialized#IOrderedDictionary#Item(System.Int32)">
+            <summary>设置 IOrderedDictionary.get_Item(Int32 index) 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.System#Collections#IDictionary#Item(System.Object)">
+            <summary>设置 IDictionary.get_Item(Object key) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.ItemGetInt32">
+            <summary>设置 IList.get_Item(Int32 index) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.ItemGetInt3201">
+            <summary>设置 IOrderedDictionary.get_Item(Int32 index) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.ItemGetObject">
+            <summary>设置 IDictionary.get_Item(Object key) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.ItemSetInt32Object">
+            <summary>设置 IList.set_Item(Int32 index, Object value) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.ItemSetInt32Object01">
+            <summary>设置 IOrderedDictionary.set_Item(Int32 index, Object value) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.ItemSetObjectObject">
+            <summary>设置 IDictionary.set_Item(Object key, Object value) 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.System#Collections#IDictionary#Keys">
+            <summary>设置 IDictionary.get_Keys() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.KeysGet">
+            <summary>设置 IDictionary.get_Keys() 的 stub</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#GetBoolean">
+            <summary>设置 IJsonWrapper.GetBoolean() 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#GetDouble">
+            <summary>设置 IJsonWrapper.GetDouble() 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#GetInt">
+            <summary>设置 IJsonWrapper.GetInt() 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#GetJsonType">
+            <summary>设置 IJsonWrapper.GetJsonType() 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#GetLong">
+            <summary>设置 IJsonWrapper.GetLong() 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#GetString">
+            <summary>设置 IJsonWrapper.GetString() 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#SetBoolean(System.Boolean)">
+            <summary>设置 IJsonWrapper.SetBoolean(Boolean val) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#SetDouble(System.Double)">
+            <summary>设置 IJsonWrapper.SetDouble(Double val) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#SetInt(System.Int32)">
+            <summary>设置 IJsonWrapper.SetInt(Int32 val) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#SetJsonType(LitJson.JsonType)">
+            <summary>设置 IJsonWrapper.SetJsonType(JsonType type) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#SetLong(System.Int64)">
+            <summary>设置 IJsonWrapper.SetLong(Int64 val) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#SetString(System.String)">
+            <summary>设置 IJsonWrapper.SetString(String val) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#ToJson(LitJson.JsonWriter)">
+            <summary>设置 IJsonWrapper.ToJson(JsonWriter writer) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.LitJson#IJsonWrapper#ToJson">
+            <summary>设置 IJsonWrapper.ToJson() 的 存根</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.RemoveAtInt32">
+            <summary>设置 IList.RemoveAt(Int32 index) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.RemoveAtInt3201">
+            <summary>设置 IOrderedDictionary.RemoveAt(Int32 index) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.RemoveObject">
+            <summary>设置 IList.Remove(Object value) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.RemoveObject01">
+            <summary>设置 IDictionary.Remove(Object key) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.SetBooleanBoolean">
+            <summary>设置 IJsonWrapper.SetBoolean(Boolean val) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.SetDoubleDouble">
+            <summary>设置 IJsonWrapper.SetDouble(Double val) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.SetIntInt32">
+            <summary>设置 IJsonWrapper.SetInt(Int32 val) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.SetJsonTypeJsonType">
+            <summary>设置 IJsonWrapper.SetJsonType(JsonType type) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.SetLongInt64">
+            <summary>设置 IJsonWrapper.SetLong(Int64 val) 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.SetStringString">
+            <summary>设置 IJsonWrapper.SetString(String val) 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.System#Collections#ICollection#SyncRoot">
+            <summary>设置 ICollection.get_SyncRoot() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.SyncRootGet">
+            <summary>设置 ICollection.get_SyncRoot() 的 stub</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#ICollection#CopyTo(System.Array,System.Int32)">
+            <summary>设置 ICollection.CopyTo(Array array, Int32 index) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IDictionary#Add(System.Object,System.Object)">
+            <summary>设置 IDictionary.Add(Object key, Object value) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IDictionary#Clear">
+            <summary>设置 IDictionary.Clear() 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IDictionary#Contains(System.Object)">
+            <summary>设置 IDictionary.Contains(Object key) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IDictionary#GetEnumerator">
+            <summary>设置 IDictionary.GetEnumerator() 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IDictionary#Remove(System.Object)">
+            <summary>设置 IDictionary.Remove(Object key) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IEnumerable#GetEnumerator">
+            <summary>设置 IEnumerable.GetEnumerator() 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IList#Add(System.Object)">
+            <summary>设置 IList.Add(Object value) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IList#Clear">
+            <summary>设置 IList.Clear() 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IList#Contains(System.Object)">
+            <summary>设置 IList.Contains(Object value) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IList#IndexOf(System.Object)">
+            <summary>设置 IList.IndexOf(Object value) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IList#Insert(System.Int32,System.Object)">
+            <summary>设置 IList.Insert(Int32 index, Object value) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IList#Remove(System.Object)">
+            <summary>设置 IList.Remove(Object value) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#IList#RemoveAt(System.Int32)">
+            <summary>设置 IList.RemoveAt(Int32 index) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#Specialized#IOrderedDictionary#GetEnumerator">
+            <summary>设置 IOrderedDictionary.GetEnumerator() 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#Specialized#IOrderedDictionary#Insert(System.Int32,System.Object,System.Object)">
+            <summary>设置 IOrderedDictionary.Insert(Int32 index, Object key, Object value) 的 存根</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubIJsonWrapper.System#Collections#Specialized#IOrderedDictionary#RemoveAt(System.Int32)">
+            <summary>设置 IOrderedDictionary.RemoveAt(Int32 index) 的 存根</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.ToJson">
+            <summary>设置 IJsonWrapper.ToJson() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.ToJsonJsonWriter">
+            <summary>设置 IJsonWrapper.ToJson(JsonWriter writer) 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubIJsonWrapper.System#Collections#IDictionary#Values">
+            <summary>设置 IDictionary.get_Values() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubIJsonWrapper.ValuesGet">
+            <summary>设置 IDictionary.get_Values() 的 stub</summary>
+        </member>
+        <member name="T:LitJson.Fakes.StubJsonData">
+            <summary>LitJson.JsonData 的存根类型</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonData.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonData.#ctor(System.Object)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonData.#ctor(System.Boolean)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonData.#ctor(System.Double)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonData.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonData.#ctor(System.Int32)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonData.#ctor(System.Int64)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonData.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonData.InitializeStub">
+            <summary>初始化 type StubJsonData 的新实例</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonData.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonData.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonData.ToString">
+            <summary>设置 JsonData.ToString() 的 存根</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubJsonData.ToString01">
+            <summary>设置 JsonData.ToString() 的 stub</summary>
+        </member>
+        <member name="T:LitJson.Fakes.StubJsonException">
+            <summary>LitJson.JsonException 的存根类型</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonException.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonException.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonException.#ctor(System.String,System.Exception)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonException.AttachBackingFieldToHelpLink">
+            <summary>附加委托以将 StubJsonException.HelpLink 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonException.AttachBackingFieldToSource">
+            <summary>附加委托以将 StubJsonException.Source 作为具有支持字段的属性进行模拟。</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonException.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonException.Data">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubJsonException.DataGet">
+            <summary>设置 Exception.get_Data() 的 stub</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonException.GetBaseException">
+            <summary>设置 Exception.GetBaseException() 的 存根</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubJsonException.GetBaseException01">
+            <summary>设置 Exception.GetBaseException() 的 stub</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>设置 Exception.GetObjectData(SerializationInfo info, StreamingContext context) 的 存根</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubJsonException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>设置 Exception.GetObjectData(SerializationInfo info, StreamingContext context) 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonException.HelpLink">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubJsonException.HelpLinkGet">
+            <summary>设置 Exception.get_HelpLink() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubJsonException.HelpLinkSetString">
+            <summary>设置 Exception.set_HelpLink(String value) 的 stub</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonException.InitializeStub">
+            <summary>初始化 type StubJsonException 的新实例</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonException.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonException.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonException.Message">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubJsonException.MessageGet">
+            <summary>设置 Exception.get_Message() 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonException.Source">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubJsonException.SourceGet">
+            <summary>设置 Exception.get_Source() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubJsonException.SourceSetString">
+            <summary>设置 Exception.set_Source(String value) 的 stub</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonException.StackTrace">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubJsonException.StackTraceGet">
+            <summary>设置 Exception.get_StackTrace() 的 stub</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonException.ToString">
+            <summary>设置 Exception.ToString() 的 存根</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubJsonException.ToString01">
+            <summary>设置 Exception.ToString() 的 stub</summary>
+        </member>
+        <member name="T:LitJson.Fakes.StubJsonMapper">
+            <summary>LitJson.JsonMapper 的存根类型</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonMapper.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonMapper.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonMapper.InitializeStub">
+            <summary>初始化 type StubJsonMapper 的新实例</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonMapper.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonMapper.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:LitJson.Fakes.StubJsonReader">
+            <summary>LitJson.JsonReader 的存根类型</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonReader.#ctor(System.String)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonReader.#ctor(System.IO.TextReader)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonReader.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonReader.InitializeStub">
+            <summary>初始化 type StubJsonReader 的新实例</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonReader.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonReader.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:LitJson.Fakes.StubJsonWriter">
+            <summary>LitJson.JsonWriter 的存根类型</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonWriter.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonWriter.#ctor(System.IO.TextWriter)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonWriter.#ctor(System.Text.StringBuilder)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonWriter.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonWriter.InitializeStub">
+            <summary>初始化 type StubJsonWriter 的新实例</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonWriter.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:LitJson.Fakes.StubJsonWriter.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="M:LitJson.Fakes.StubJsonWriter.ToString">
+            <summary>设置 JsonWriter.ToString() 的 存根</summary>
+        </member>
+        <member name="F:LitJson.Fakes.StubJsonWriter.ToString01">
+            <summary>设置 JsonWriter.ToString() 的 stub</summary>
+        </member>
+    </members>
+</doc>

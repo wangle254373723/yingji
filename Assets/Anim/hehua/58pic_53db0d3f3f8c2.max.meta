@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 7f98c7c71e5dda04183b741d3635bbfe
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object23_MeshPart0
+    100004: Object23_MeshPart1
+    100006: Object23_MeshPart2
+    100008: Object23_MeshPart3
+    100010: Object23_MeshPart4
+    100012: Object23_MeshPart5
+    100014: Object23_MeshPart6
+    100016: Camera01
+    100018: Camera01.Target
+    100020: ChamferBox01
+    100022: ChamferBox02
+    100024: Object02
+    100026: Object03
+    100028: Object04
+    100030: Object05
+    100032: Object06
+    100034: Object07
+    100036: Plane06
+    100038: Rectangle02
+    100040: Sphere01
+    100042: Sphere21
+    100044: Sphere22
+    100046: Tube07
+    400000: //RootNode
+    400002: Object23_MeshPart0
+    400004: Object23_MeshPart1
+    400006: Object23_MeshPart2
+    400008: Object23_MeshPart3
+    400010: Object23_MeshPart4
+    400012: Object23_MeshPart5
+    400014: Object23_MeshPart6
+    400016: Camera01
+    400018: Camera01.Target
+    400020: ChamferBox01
+    400022: ChamferBox02
+    400024: Object02
+    400026: Object03
+    400028: Object04
+    400030: Object05
+    400032: Object06
+    400034: Object07
+    400036: Plane06
+    400038: Rectangle02
+    400040: Sphere01
+    400042: Sphere21
+    400044: Sphere22
+    400046: Tube07
+    2300000: Object23_MeshPart0
+    2300002: Object23_MeshPart1
+    2300004: Object23_MeshPart2
+    2300006: Object23_MeshPart3
+    2300008: Object23_MeshPart4
+    2300010: Object23_MeshPart5
+    2300012: Object23_MeshPart6
+    2300014: ChamferBox01
+    2300016: ChamferBox02
+    2300018: Object02
+    2300020: Object03
+    2300022: Object04
+    2300024: Object05
+    2300026: Object06
+    2300028: Object07
+    2300030: Plane06
+    2300032: Rectangle02
+    2300034: Sphere01
+    2300036: Sphere21
+    2300038: Sphere22
+    2300040: Tube07
+    3300000: Object23_MeshPart0
+    3300002: Object23_MeshPart1
+    3300004: Object23_MeshPart2
+    3300006: Object23_MeshPart3
+    3300008: Object23_MeshPart4
+    3300010: Object23_MeshPart5
+    3300012: Object23_MeshPart6
+    3300014: ChamferBox01
+    3300016: ChamferBox02
+    3300018: Object02
+    3300020: Object03
+    3300022: Object04
+    3300024: Object05
+    3300026: Object06
+    3300028: Object07
+    3300030: Plane06
+    3300032: Rectangle02
+    3300034: Sphere01
+    3300036: Sphere21
+    3300038: Sphere22
+    3300040: Tube07
+    4300000: Object23_MeshPart0
+    4300002: Object23_MeshPart1
+    4300004: Object23_MeshPart2
+    4300006: Object23_MeshPart3
+    4300008: Object23_MeshPart4
+    4300010: Object23_MeshPart5
+    4300012: Object23_MeshPart6
+    4300014: Object03
+    4300016: Object04
+    4300018: Sphere21
+    4300020: Object02
+    4300022: Object05
+    4300024: Object06
+    4300026: Tube07
+    4300028: Object07
+    4300030: ChamferBox01
+    4300032: Sphere01
+    4300034: Sphere22
+    4300036: Rectangle02
+    4300038: ChamferBox02
+    4300040: Plane06
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

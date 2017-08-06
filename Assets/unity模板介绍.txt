@@ -1,0 +1,66 @@
+_Plugins
+
+------VisionTimer主要用来定时触发
+
+
+Anim
+
+------次文件下文件为场景模型
+
+Editor
+______unity Editor运行,此处主要用来检测shell命令
+
+
+NGUI
+______NGUI插件
+
+
+Plugins
+______unity插件存放处,此处主要存放了VR依赖库
+
+
+
+Resources
+______NGUIResource.load可加载此文件下任意文件,此处主要用来存放预制体,
+
+
+
+
+Scene
+------WHCZ_______万花丛场景
+
+------NGUIWHCZ___NGUI版万花丛中(暂时没用)
+
+------Start______大好河山
+
+
+
+Scripte
+
+------BGSpine____大好河山
+
+
+
+------Entity
+  |
+   -----------ReadJson___主要用来解析XML.下载音乐图片
+
+------utilAnim
+  |
+   ----------AnimaWHC__万花丛模板核心类
+  |
+   ----------AnimaMgr___动画类型,进行动画播放
+  |
+   ----------EnumDefine__影集动画枚举类
+  |
+   ----------Sington____单件类
+
+
+-------Tool
+  |
+   -------CuttingScreen___主要用来截图
+
+
+VRCapture
+-----------VR录屏插件核心文件
+

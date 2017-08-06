@@ -1,0 +1,38 @@
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.JsonType 生成存根: 类型是一个值类型。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.OrderedDictionaryEnumerator 生成存根: 类型对 exported or assembly(LitJson.Fakes) 不可见。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.PropertyMetadata 生成存根: 类型是一个值类型。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ArrayMetadata 生成存根: 类型是一个值类型。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ObjectMetadata 生成存根: 类型是一个值类型。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ExporterFunc 生成存根: 类型已密封。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ExporterFunc`1 生成存根: 类型已密封。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ImporterFunc 生成存根: 类型已密封。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ImporterFunc`2 生成存根: 类型已密封。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.WrapperFactory 生成存根: 类型已密封。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.JsonToken 生成存根: 类型是一个值类型。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.Condition 生成存根: 类型是一个值类型。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.WriterContext 生成存根: 类型对 exported or assembly(LitJson.Fakes) 不可见。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.FsmContext 生成存根: 类型对 exported or assembly(LitJson.Fakes) 不可见。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.Lexer 生成存根: 类型对 exported or assembly(LitJson.Fakes) 不可见。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ParserToken 生成存根: 类型是一个值类型。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 <PrivateImplementationDetails>{18f18ac2-f585-405a-ac91-bcb41785a078} 生成存根: 类型已密封。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.JsonType 生成填充码: 类型是一个枚举。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.IJsonWrapper 生成填充码: 类型是一个接口。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.JsonData+BlackBox 生成填充码: 类型对 exported or assembly(LitJson.Fakes) 不可见。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.OrderedDictionaryEnumerator 生成填充码: 类型对 exported or assembly(LitJson.Fakes) 不可见。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.PropertyMetadata 生成填充码: 类型对 exported or assembly(LitJson.Fakes) 不可见。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ArrayMetadata 生成填充码: 类型对 exported or assembly(LitJson.Fakes) 不可见。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ObjectMetadata 生成填充码: 类型对 exported or assembly(LitJson.Fakes) 不可见。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ExporterFunc 生成填充码: 类型是一个委托。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ExporterFunc`1 生成填充码: 类型是一个委托。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ImporterFunc 生成填充码: 类型是一个委托。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ImporterFunc`2 生成填充码: 类型是一个委托。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.WrapperFactory 生成填充码: 类型是一个委托。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.JsonMapper+<RegisterExporter>c__AnonStorey0`1 生成填充码: 类型不受支持，因为存在内部限制。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.JsonMapper+<RegisterImporter>c__AnonStorey1`2 生成填充码: 类型不受支持，因为存在内部限制。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.JsonToken 生成填充码: 类型是一个枚举。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.Condition 生成填充码: 类型是一个枚举。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.WriterContext 生成填充码: 类型对 exported or assembly(LitJson.Fakes) 不可见。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.FsmContext 生成填充码: 类型对 exported or assembly(LitJson.Fakes) 不可见。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.Lexer 生成填充码: 类型对 exported or assembly(LitJson.Fakes) 不可见。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 LitJson.ParserToken 生成填充码: 类型是一个枚举。
+D:\unity4.6Project\BuyingAndSelling\Fakes\LitJson01.fakes : warning : 无法为 <PrivateImplementationDetails>{18f18ac2-f585-405a-ac91-bcb41785a078} 生成填充码: 类型不受支持，因为存在内部限制。
